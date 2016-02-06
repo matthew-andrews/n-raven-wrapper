@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === 'production') {
 	});
 } else {
 	module.exports = {
-		captureMessage: console.warn.bind(logger),
-		captureError: console.error.bind(logger)
+		captureMessage: console.warn.bind(console),
+		captureError: console.error.bind(console)
 	};
 }
