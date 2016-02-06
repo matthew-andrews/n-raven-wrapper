@@ -1,0 +1,8 @@
+{
+  "name": "@financial-times/n-raven-wrapper",
+  "version": "0.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "raven": "^0.10.0"
+  }
+}
