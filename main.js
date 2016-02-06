@@ -1,5 +1,7 @@
 'use strict';
 
+var raven = require('raven');
+
 if (process.env.NODE_ENV === 'production') {
 	var client = new raven.Client(process.env.RAVEN_URL);
 	module.exports = client;
